@@ -8,7 +8,9 @@ customjs:
 ### Follow these steps to embed JavaScript in your Github Pages Markdown:
 
 1. In your header add links to the javascript files
-```---
+
+```
+---
 title: JSON
 customjs:
  - /test.js
@@ -16,6 +18,7 @@ customjs:
 ```
 
 1. Add the link to the script in your default html template:
+
 ```
 {% for js in page.customjs %}
                         <script async type="text/javascript" src="{{ js }}"></script>
