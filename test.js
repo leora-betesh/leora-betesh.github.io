@@ -1,5 +1,3 @@
-
-alert("JS test file");
-$(document).ready(function() {
+$(function(){
   console.log("hi");
 });
