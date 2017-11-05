@@ -24,8 +24,9 @@ customjs:
 
 
 ### You can also embed Javascript directly into Markdown:
+
 ```
 <script>
-alert("Hi");
+alert("Example");
 </script>
 ```
