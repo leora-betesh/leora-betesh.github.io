@@ -1,7 +1,6 @@
 ---
 title: JSON
 customjs:
- - https://code.jquery.com/jquery-3.2.1.min.js
  - /test.js
 ---
 # Javascript in Markdown
@@ -12,7 +11,6 @@ customjs:
 ```---
 title: JSON
 customjs:
- - https://code.jquery.com/jquery-3.2.1.min.js
  - /test.js
 ---
 ```
