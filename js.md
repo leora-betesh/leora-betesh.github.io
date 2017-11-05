@@ -33,3 +33,5 @@ customjs:
 alert("Example");
 </script>
 ```
+
+<div id="data"></div>
