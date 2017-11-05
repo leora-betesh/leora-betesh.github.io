@@ -7,6 +7,9 @@
                     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
                         
                         {% seo %}
+                        {% for js in page.customjs %}
+                        <script async type="text/javascript" src="{{ js }}"></script>
+                        {% endfor %}
     </head>
     
     <body>
@@ -41,6 +44,7 @@
         ga('create', '{{ site.google_analytics }}', 'auto');
         ga('send', 'pageview');
       </script>
+        
         {% endif %}
     </body>
 </html>
