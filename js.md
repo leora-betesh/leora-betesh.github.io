@@ -1,4 +1,5 @@
 ---
+layout: post
 title: JSON
 customjs:
  - /test.js
