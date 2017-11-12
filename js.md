@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: JSON
 customjs:
  - /test.js
