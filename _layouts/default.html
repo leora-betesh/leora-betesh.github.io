@@ -32,6 +32,16 @@
                     <a class="tar_download_link" href="{{ site.github.tar_url }}">Download this project as a tar.gz file</a>
                 </section>
                 {% endif %}
+                
+                <section>
+                    <ul>
+                        {% for page in site.pages %}
+                        <li>
+                            <a href="{{ page.url }}">{{ page.title }}</a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </section>
             </header>
         </div>
         
