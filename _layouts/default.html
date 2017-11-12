@@ -35,12 +35,23 @@
                 
                 <section>
                     <ul>
+                        <h2>All the Site Pages</h2>
                         {% for page in site.pages %}
                         {% if page.title %}
                         <li>
                             <a href="{{ page.url }}">{{ page.title }}</a>
                         </li>
                         {% endif %}
+                        {% endfor %}
+                    </ul>
+                </section>
+                <section>
+                    <h2>All the Posts</h2>
+                    <ul>
+                        {% for post in site.posts %}
+                        <li>
+                            <a href="{{ post.url }}">{{ post.title }}</a>
+                        </li>
                         {% endfor %}
                     </ul>
                 </section>
