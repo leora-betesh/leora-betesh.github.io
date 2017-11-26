@@ -36,8 +36,9 @@
                 <section>
                     <ul>
                         <h2 style="color:white;">All the Site Pages</h2>
-                        {% for page in site.pages %}
-                        {% if page.title %}
+                        {% assign pages = site.pages %} 
+                        {% for p in pages %}
+                        {% if p.layout == 'default' %}
                         <li>
                             <a href="{{ page.url }}">{{ page.title }}</a>
                         </li>
