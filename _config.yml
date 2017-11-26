@@ -2,4 +2,3 @@ theme: jekyll-theme-slate
 site:
     show_downloads: false
     title: "My Individual Title"
-exclude: ['todo.md']
