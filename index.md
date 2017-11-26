@@ -1,5 +1,6 @@
 ---
-title: About Leora
+title: Hello World
+menu: main
 ---
 
 # Hello Markdown World!

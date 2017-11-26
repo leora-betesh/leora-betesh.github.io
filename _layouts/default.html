@@ -38,7 +38,7 @@
                         <h2 style="color:white;">All the Site Pages</h2>
                         {% assign pages = site.pages %} 
                         {% for p in pages %}
-                        {% if p.layout == 'default' %}
+                        {% if p.menu == 'main' %}
                         <li>
                             <a href="{{ page.url }}">{{ page.title }}</a>
                         </li>

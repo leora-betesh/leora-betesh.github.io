@@ -1,6 +1,7 @@
 ---
 title: Javascript in Github Pages Markdown
 layout: default
+menu: main
 customjs:
  - /test.js
 ---
