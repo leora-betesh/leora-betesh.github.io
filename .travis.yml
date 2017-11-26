@@ -14,3 +14,7 @@ env:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
 
 sudo: false # route your build to the container-based infrastructure for a faster build
+
+# will first have to tell travis to install python or check if it's there
+# add python test such as spellcheck
+# Or, just let github pages build, then delay travis and have the python/node.js test the entire ready site
