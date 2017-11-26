@@ -2,3 +2,6 @@ theme: jekyll-theme-slate
 site:
     show_downloads: false
     title: "My Individual Title"
+plugins:
+  - jekyll-sitemap
+  - jemoji

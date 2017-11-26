@@ -25,11 +25,10 @@
                 
                 <h1 id="project_title">{{ site.title | default: site.github.repository_name }}</h1>
                 <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
-                <h2>This is coming from the Post template</h2>
                 
                 <section>
                     <ul>
-                        <h2>All the Site Pages</h2>
+                        <h2 style="color:white;">All the Site Pages</h2>
                         {% for page in site.pages %}
                         {% if page.title %}
                         <li>
@@ -40,7 +39,7 @@
                     </ul>
                 </section>
                 <section>
-                    <h2>All the Posts</h2>
+                    <h2 style="color:white;">All the Posts</h2>
                     <ul>
                         {% for post in site.posts %}
                         <li>
