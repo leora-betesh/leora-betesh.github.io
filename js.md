@@ -1,5 +1,5 @@
 ---
-title: JSON
+title: Javascript in Github Pages Markdown
 customjs:
  - /test.js
 ---
